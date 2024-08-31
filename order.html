@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Roboto+Slab:wght@100..900&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<!-- cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <!-- wow cdn -->
+ <link rel="stylesheet" href="animate.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+ 
+    <style>
+        .introsec{
+    background: url(./chef/herbs-garlic-aligned-triangle-shape.jpg) center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+  }
+  .navbar{
+    background-color: #508D4E;
+    color: white;
+    font-family: Montserrat;
+    font-size: larger;
+    
+  }
+  .nav-link:hover{
+    text-decoration:underline;
+    text-decoration-color: white;
+    color: white;
+    transition: 1.1s;
+    
+  }
+  .herotxt{
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    animation: fadeInUp 1.5s ease-in-out 0.5s;
+    color: black;
+    
+  }
+
+  .Hiw:hover{
+    color: #508D4E;
+    transition: 0.5s;
+  }
+ 
+  .caru{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    background-color: #508D4E; /* Light background for the footer */
+}
+
+.menu-card {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .menu-card:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-card img {
+            border-radius: 50%;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .menu-card-body {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            border-radius: 0 0 50% 50%;
+        }
+
+        .menu-card-title {
+            font-size: 1.25rem;
+            margin: 0;
+        }
+
+        .menu-card-text {
+            font-size: 0.9rem;
+        }
+        
+        /* new */
+        
+    </style>
+</head>
+<body>
+       <!-- Header -->
+
+       <nav class="navbar navbar-expand-md  sticky-top shadow-lg p-1   ">
+        <div class="container-fluid  ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-3 mb-2   " id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">FOODIE</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto p-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./order.html">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+        <!-- end header -->
+         <!-- intro sec -->
+      <div class="introsec">
+        <p class="herotxt" >ORDER YOUR DELICIOUS FOOD</span> </p>  
+        
+        </div>
+       <!-- /intro sec -->
+        <!-- menu -->
+       <div class="container px-4 text-center">
+        <p class="fs-4  fw-semibold">HOW IT WORKS</p>
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3"><img src="./plate-with-fork-and-knife-eating-set-tools-from-top-view-svgrepo-com.svg" alt="" height="150px"></div>
+           <p class="fs-5 Hiw fw-semibold">Choose Your Favourite Food</p>
+           <p>Choose your favorite meals and order online or by phone. It's easy to customize your order.</p>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./motorbike-delivery-svgrepo-com.svg" alt="" height="150px"></div>
+            <p class="fs-5 Hiw fw-semibold">We Deliver Your Meal</p>
+            <p>We prepared and delivered meals arrive at your door. Duis autem vel eum iriure dolor in hendrerit in vulputate.</p>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="./soup-plate-svgrepo-com (2).svg" alt="" height="150px"></div>
+            <p class="fs-5 Hiw fw-semibold">Enjoy and Eat</p>
+            <p>No shooping, no cooking, no counting and no cleaning. Enjoy your healthy meals with your family.</p>
+          </div>
+         
+        </div>
+      </div>
+      <!-- /menu -->
+
+      <!-- carousl -->
+       <p  class=" container px-4 text-center fs-4  fw-semibold caru">OUR FEATURED MENU</p>
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/side-view-chicken-roll-grilled-chicken-lettuce-cucumber-tomato-mayo-pita.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/2148685492.jpg" class="card-img-top" alt="...">
+                 
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/2148651037.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/19744.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/18813.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./pictures/18717.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       <!-- /carousl -->
+        <!-- order -->
+         <div>
+          <p  class=" container px-4 text-center fs-4  fw-semibold caru">ORDER YOUR MENU</p>
+          <div class="d-flex justify-content-center">
+            <div class="menu-card position-relative">
+                <a href="#"><img src="./chef/Leonardo_Phoenix_Give_me_a_crispy_fried_chicken_leg_piece_imag_1.jpg" alt="Menu Item"></a>
+                <div class="menu-card-body">
+                    <h5 class="menu-card-title">Chicken</h5>
+                    <p class="menu-card-text">Starting ₹199</p>
+                    
+                </div>
+            </div>
+            <div class="menu-card position-relative">
+                <img src="./chef/p_4162fbe2-6612-11ef-9b68-2a515d39b2ec.png" alt="Menu Item">
+                <div class="menu-card-body">
+                    <h5 class="menu-card-title">Pizza</h5>
+                    <p class="menu-card-text">Starting ₹149</p>
+                </div>
+            </div>
+            <div class="menu-card position-relative">
+                <img src="./chef/p_e49c3f62-6612-11ef-a37a-d2d4c53ff85d.png" alt="Menu Item">
+                <div class="menu-card-body">
+                    <h5 class="menu-card-title">Biriyani</h5>
+                    <p class="menu-card-text">Starting ₹249</p>
+                </div>
+            </div>
+            <div class="menu-card position-relative">
+                <img src="./chef/p_876987d6-6613-11ef-a01d-d2d4c53ff85d.png" alt="Menu Item">
+                <div class="menu-card-body">
+                    <h5 class="menu-card-title">Dosa</h5>
+                    <p class="menu-card-text">Starting ₹69</p>
+                </div>
+            </div>
+            <div class="menu-card position-relative">
+                <img src="./chef/p_a19fcdf8-6614-11ef-b629-4e94e7820b81.png" alt="Menu Item">
+                <div class="menu-card-body">
+                    <h5 class="menu-card-title">Thali</h5>
+                    <p class="menu-card-text">Starting ₹99</p>
+                </div>
+            </div>
+        </div>
+         </div>
+         <!-- /order -->
+          
+        <!-- <footer> -->
+          <footer class=" py-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo Section -->
+                    <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center justify-content-center justify-content-md-start">
+                        <p class="mb-0">FOODIE LOGO</p>
+                    </div>
+                    <!-- Contact Section -->
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <ul class="list-unstyled mb-0">
+                            <li><strong>CONTACT</strong></li>
+                            <li><i class="fa-solid fa-phone"></i> PHONE: 04368-265812</li>
+                            <li><i class="fa-solid fa-envelope"></i> EMAIL: FOODIEKKL@GMAIL.COM</li>
+                            <li><i class="fa-solid fa-mobile"></i> MOBILE: 9966338855</li>
+                        </ul>
+                    </div>
+                    <!-- Follow Us Section -->
+                    <div class="col-md-4">
+                        <ul class="list-unstyled mb-0">
+                            <li><strong>FOLLOW US</strong></li>
+                            <li><i class="fa-brands fa-facebook"></i> FACEBOOK</li>
+                            <li><i class="fa-brands fa-square-instagram"></i> INSTAGRAM</li>
+                            <li><i class="fa-brands fa-google-plus"></i> GOOGLE+</li>
+                            <li><i class="fa-brands fa-twitter"></i> TWITTER</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+          
+        <!-- </footer> -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var myCarousel = document.querySelector('#cardCarousel');
+    var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 2000, // Change this value to adjust the autoplay interval (in milliseconds)
+      ride: 'carousel'
+    });
+  });
+</script>
+</html>
