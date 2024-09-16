@@ -119,12 +119,14 @@
 
        <nav class="navbar navbar-expand-md sticky-top shadow-lg p-1">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./logo copy.svg" alt="Logo" height="50px" width="150px"></a>
+          <a class="navbar-brand" href="#">
+            <img src="./logo copy.svg" alt="Logo" height="50" width="150">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="./index.html">Home</a>
               </li>
@@ -135,45 +137,51 @@
                 <a class="nav-link" href="#">Dining</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="./login_signup.html">Signup and Login</a>
-                </li>
+                <a class="nav-link" href="./login_signup.html">Signup and Login</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Help</a>
               </li>
-              
             </ul>
           </div>
         </div>
       </nav>
+      
         <!-- end header -->
          <!-- intro sec -->
-      <div class="introsec">
-        <p class="herotxt" >ORDER YOUR DELICIOUS FOOD</span> </p>  
-        
+         <div class="introsec text-center py-4">
+          <p class="herotxt fs-1 fw-bold">ORDER YOUR DELICIOUS FOOD</p>  
         </div>
+        
        <!-- /intro sec -->
         <!-- menu -->
-       <div class="container px-4 text-center">
-        <p class="fs-4  fw-semibold">HOW IT WORKS</p>
-        <div class="row gx-5">
-          <div class="col">
-           <div class="p-3"><img src="./plate-with-fork-and-knife-eating-set-tools-from-top-view-svgrepo-com.svg" alt="" height="150px"></div>
-           <p class="fs-5 Hiw fw-semibold">Choose Your Favourite Food</p>
-           <p>Choose your favorite meals and order online or by phone. It's easy to customize your order.</p>
+        <div class="container px-4 text-center">
+          <p class="fs-4 fw-semibold">HOW IT WORKS</p>
+          <div class="row gx-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="p-3">
+                <img src="./plate-with-fork-and-knife-eating-set-tools-from-top-view-svgrepo-com.svg" alt="" height="150px">
+              </div>
+              <p class="fs-5 Hiw fw-semibold">Choose Your Favourite Food</p>
+              <p>Choose your favorite meals and order online or by phone. It's easy to customize your order.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="p-3">
+                <img src="./motorbike-delivery-svgrepo-com.svg" alt="" height="150px">
+              </div>
+              <p class="fs-5 Hiw fw-semibold">We Deliver Your Meal</p>
+              <p>Prepared and delivered meals arrive at your door. Duis autem vel eum iriure dolor in hendrerit in vulputate.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="p-3">
+                <img src="./soup-plate-svgrepo-com (2).svg" alt="" height="150px">
+              </div>
+              <p class="fs-5 Hiw fw-semibold">Enjoy and Eat</p>
+              <p>No shopping, no cooking, no counting, and no cleaning. Enjoy your healthy meals with your family.</p>
+            </div>
           </div>
-          <div class="col">
-            <div class="p-3"><img src="./motorbike-delivery-svgrepo-com.svg" alt="" height="150px"></div>
-            <p class="fs-5 Hiw fw-semibold">We Deliver Your Meal</p>
-            <p>We prepared and delivered meals arrive at your door. Duis autem vel eum iriure dolor in hendrerit in vulputate.</p>
-          </div>
-          <div class="col">
-            <div class="p-3"><img src="./soup-plate-svgrepo-com (2).svg" alt="" height="150px"></div>
-            <p class="fs-5 Hiw fw-semibold">Enjoy and Eat</p>
-            <p>No shooping, no cooking, no counting and no cleaning. Enjoy your healthy meals with your family.</p>
-          </div>
-         
         </div>
-      </div>
+        
       <!-- /menu -->
 
       <!-- carousl -->
@@ -236,47 +244,75 @@
       </div>
        <!-- /carousl -->
         <!-- order -->
-         <div>
-          <p  class=" container px-4 text-center fs-4  fw-semibold caru">ORDER YOUR MENU</p>
-          <div class="d-flex justify-content-center">
-            <div class="menu-card position-relative">
-               <img src="./chef/Leonardo_Phoenix_Give_me_a_crispy_fried_chicken_leg_piece_imag_1.jpg" alt="Menu Item">
-                <div class="menu-card-body">
-                   <a href="./orderform.html" style="color: white; text-decoration: none;"> <h5 class="menu-card-title">Chicken</h5>
-                    <p class="menu-card-text">Starting ₹199</p></a>
-                    
+        <div>
+          <p class="container px-4 text-center fs-4 fw-semibold caru">ORDER YOUR MENU</p>
+          <div class="container">
+            <div class="row justify-content-center">
+              <!-- Menu Card 1 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="menu-card position-relative">
+                  <img src="./chef/Leonardo_Phoenix_Give_me_a_crispy_fried_chicken_leg_piece_imag_1.jpg" class="img-fluid" alt="Chicken">
+                  <div class="menu-card-body text-center">
+                    <a href="./orderform.html" style="color: white; text-decoration: none;">
+                      <h5 class="menu-card-title">Chicken</h5>
+                      <p class="menu-card-text">Starting ₹199</p>
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="menu-card position-relative">
-                <img src="./chef/p_4162fbe2-6612-11ef-9b68-2a515d39b2ec.png" alt="Menu Item">
-                <div class="menu-card-body">
-                    <a href="./orderform.html" style="color: white; text-decoration: none;"><h5 class="menu-card-title">Pizza</h5>
-                      <p class="menu-card-text">Starting ₹149</p></a>
+              </div>
+              <!-- Menu Card 2 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="menu-card position-relative">
+                  <img src="./chef/p_4162fbe2-6612-11ef-9b68-2a515d39b2ec.png" class="img-fluid" alt="Pizza">
+                  <div class="menu-card-body text-center">
+                    <a href="./orderform.html" style="color: white; text-decoration: none;">
+                      <h5 class="menu-card-title">Pizza</h5>
+                      <p class="menu-card-text">Starting ₹149</p>
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="menu-card position-relative">
-                <img src="./chef/p_e49c3f62-6612-11ef-a37a-d2d4c53ff85d.png" alt="Menu Item">
-                <div class="menu-card-body">
-                    <a href="./orderform.html" style="color: white; text-decoration: none;"><h5 class="menu-card-title">Biriyani</h5>
-                      <p class="menu-card-text">Starting ₹249</p></a>
+              </div>
+              <!-- Menu Card 3 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="menu-card position-relative">
+                  <img src="./chef/p_e49c3f62-6612-11ef-a37a-d2d4c53ff85d.png" class="img-fluid" alt="Biriyani">
+                  <div class="menu-card-body text-center">
+                    <a href="./orderform.html" style="color: white; text-decoration: none;">
+                      <h5 class="menu-card-title">Biriyani</h5>
+                      <p class="menu-card-text">Starting ₹249</p>
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="menu-card position-relative">
-                <img src="./chef/p_876987d6-6613-11ef-a01d-d2d4c53ff85d.png" alt="Menu Item">
-                <div class="menu-card-body">
-                   <a href="./orderform.html" style="color: white; text-decoration: none;"> <h5 class="menu-card-title">Dosa</h5>
-                    <p class="menu-card-text">Starting ₹69</p></a>
+              </div>
+              <!-- Menu Card 4 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="menu-card position-relative">
+                  <img src="./chef/p_876987d6-6613-11ef-a01d-d2d4c53ff85d.png" class="img-fluid" alt="Dosa">
+                  <div class="menu-card-body text-center">
+                    <a href="./orderform.html" style="color: white; text-decoration: none;">
+                      <h5 class="menu-card-title">Dosa</h5>
+                      <p class="menu-card-text">Starting ₹69</p>
+                    </a>
+                  </div>
                 </div>
-            </div>
-            <div class="menu-card position-relative">
-                <img src="./chef/p_a19fcdf8-6614-11ef-b629-4e94e7820b81.png" alt="Menu Item">
-                <div class="menu-card-body">
-                    <a href="./orderform.html" style="color: white; text-decoration: none;"><h5 class="menu-card-title">Thali</h5>
-                      <p class="menu-card-text">Starting ₹99</p></a>
+              </div>
+              <!-- Menu Card 5 -->
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="menu-card position-relative">
+                  <img src="./chef/p_a19fcdf8-6614-11ef-b629-4e94e7820b81.png" class="img-fluid" alt="Thali">
+                  <div class="menu-card-body text-center">
+                    <a href="./orderform.html" style="color: white; text-decoration: none;">
+                      <h5 class="menu-card-title">Thali</h5>
+                      <p class="menu-card-text">Starting ₹99</p>
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-         </div>
+        
+        
          <!-- /order -->
           
         <!-- <footer> -->
